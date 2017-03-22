@@ -1,0 +1,63 @@
+﻿.tabs-header, .tabs-tool{background-color: #EAF7FD;}
+.layout-panel-north{overflow: visible;border: 0px;}
+.layout-panel-west{overflow: visible;}
+.layout-panel-east, .layout-panel-west{z-index:10;}
+.tabs-header, .tabs-tool{}
+.tabs-header{padding-top: 2px;}
+.tabs{height:38px;border-bottom: 1px solid #ddd;}
+.tabs li{margin: 0 0 0 3px;}
+.tabs li a.tabs-inner{height:37px;line-height: 36px;background: #f6f6f6;-moz-border-radius:0px;padding: 0 23px 0 20px;font-size: 14px;margin-right: 2px;border-color: #ddd;-moz-border-radius:4px 4px 0 0;-webkit-border-radius:4px 4px 0 0;border-radius:4px 4px 0 0;cursor:hand;cursor:pointer;}
+.tabs li a.tabs-inner:hover{background-color: #fafafa;}
+.tabs li.tabs-selected a.tabs-inner{background: #fff;border-color: #ddd;border-bottom-color: #fff;}
+.tabs li a.tabs-close, .tabs-p-tool{top:30%;right:8px;}
+.tabs-title{font-size: 14px;font-weight: normal;}
+.datagrid-cell-rownumber{padding-top: 6px;padding-bottom: 6px;}
+
+
+.layout-body{padding: 0px;}
+.panel-body-noborder{padding: 0px;}
+
+
+/*bootstrap兼容问题和easyui的bug*/
+.panel-header, .panel-body {
+border-width: 0px;
+}
+.panel-header .panel-title{font-size: 12px;}
+.messager-button{padding-bottom: 10px;}
+.datagrid,.combo-p{
+border:solid 1px #D4D4D4;
+}
+.datagrid *{
+-webkit-box-sizing: content-box;
+-moz-box-sizing: content-box;
+box-sizing: content-box;
+}
+.datagrid-header-check, .datagrid-cell-check{height:35px;line-height: 35px;}
+.datagrid-cell, .datagrid-cell-group, .datagrid-header-rownumber, .datagrid-cell-rownumber{height:40px;line-height: 40px;}
+.tableGridbox .pagination{display: block;}
+
+a.l-btn span.l-btn-left{height: 24px;}
+label{font-weight: normal;}
+.navbar{min-height: 45px;margin-bottom: 10px;}
+.btn .caret{margin-left: 3px;}
+
+.txt-err {
+border-color: #a94442;
+-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+}
+.txt-err:focus {
+border-color: #843534;
+-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 6px #ce8483;
+box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 6px #ce8483;
+}
+
+/*.messager-window{background: #fff;padding: 0px;}*/
+.messager-progress{padding: 2px;}
+.messager-window .messager-body{border:0px;}
+.messager-p-msg{margin: 0px;}
+.progressbar{border:0px;background-color: #eaf7fd;}
+.form-inline .form-control{width:auto;}
+.form-control{display: -moz-inline-stack;display:inline-block;*display:inline;*zoom:1;padding: 3px 3px;height: 30px;}
+.form-control[readonly]{cursor: default;}
+.form-group{margin-bottom: 5px;}

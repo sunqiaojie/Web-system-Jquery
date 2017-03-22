@@ -1,0 +1,28 @@
+﻿{"total":46,
+"rows":[
+	{
+		"no":"14110841",
+		"pic":"images/demoPic-1.png",
+		"name":"居家新款官网同步，双侧抽绳单肩斜挎包",
+		"color":"蓝色",
+		"size":"XXL",
+		"buyNumber":9,
+		"price":"150",
+		"arriveNumber":7,
+		"booking":["12345","2145","12478"],
+		"plan":[{"date":"2015-01-26","number":44},{"date":"2015-01-18","number":23}]
+	},
+	{
+		"no":"14110842",
+		"pic":"images/demoPic-2.png",
+		"name":"居家新款官网同步，双侧抽绳单肩斜挎包",
+		"color":"红色",
+		"size":"26",
+		"buyNumber":9,
+		"price":"150",
+		"arriveNumber":7,
+		"booking":["24587","2145"],
+		"plan":[]
+	}
+]
+}
